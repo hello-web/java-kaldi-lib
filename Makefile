@@ -10,7 +10,7 @@ KALDI_FLAGS := \
 	-DHAVE_EXECINFO_H=1 -rdynamic -DHAVE_CXXABI_H -DHAVE_ATLAS \
 	-I$(KALDI_ROOT)/tools/ATLAS/include \
 	-I$(KALDI_ROOT)/tools/openfst/include -I$(KALDI_ROOT)/src \
-	-I${JAVA_HOME}/include -I${JAVA_HOME}/include/linux
+	-I$(JAVA_HOME)/include -I$(JAVA_HOME)/include/linux
 
 CXXFLAGS := -std=c++11 -g -Wall -DPIC -fPIC $(KALDI_FLAGS)
 
