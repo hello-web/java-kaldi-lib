@@ -1,7 +1,7 @@
-ATLASLIBS = /usr/lib/libatlas.so.3 /usr/lib/libf77blas.so.3 /usr/lib/libcblas.so.3 /usr/lib/liblapack_atlas.so.3
+ATLASLIBS := /usr/lib/libatlas.so.3 /usr/lib/libf77blas.so.3 /usr/lib/libcblas.so.3 /usr/lib/liblapack_atlas.so.3
 #ATLASLIBS = /usr/lib/x86_64-linux-gnu/libatlas.so.3 /usr/lib/x86_64-linux-gnu/libf77blas.so.3 /usr/lib/x86_64-linux-gnu/libcblas.so.3 /usr/lib/x86_64-linux-gnu/liblapack_atlas.so.3 -Wl,-rpath=/usr/lib/x86_64-linux-gnu
 KALDI_ROOT=/opt/kaldi
-JAVA_HOME=/usr/local/openjdk-11
+JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 CXX := g++
 MKLROOT= /opt/intel/compilers_and_libraries_2019.2.187/linux/mkl
 KALDI_FLAGS := \
