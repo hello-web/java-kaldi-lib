@@ -11,7 +11,7 @@ namespace kaldi {
 
 %pragma(java) jniclasscode=%{
     static {
-        System.loadLibrary("_kaldi_recognizer");
+        System.loadLibrary("lib_kaldi_recognizer.so");
     }
 %}
 
